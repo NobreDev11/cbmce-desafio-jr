@@ -1,0 +1,31 @@
+# Node / JS
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / build
+dist/
+.cache/
+.vite/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Prisma / SQLite
+server/prisma/dev.db
+server/prisma/dev.db-journal
+server/node_modules/
+web/node_modules/
+
+# Logs
+logs/
+*.log
