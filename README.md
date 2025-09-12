@@ -1,5 +1,7 @@
- HEAD
 # cbmce-desafio-jr
 
 # CBMCE - Desafio Fullstack Júnior
-2a2b535 (chore: inicia monorepo com server e web (readmes))
+
+## Estrutura
+- server/ → API Node (Express + Prisma + SQLite)
+- web/ → Front-end React (Vite + React Query)
