@@ -4,3 +4,8 @@
 - server/  # API Node (Express + Prisma + SQLite)
 - web/     # Front-end React (Vite + React Query)
 
+
+## Estrutura
+- server/  # API Node (Express + Prisma + SQLite)
+- web/     # Front-end React (Vite + React Query)
+
