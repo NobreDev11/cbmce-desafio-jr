@@ -1,11 +1,18 @@
 # CBMCE - Desafio Fullstack Júnior
 
-## Estrutura
-- server/  # API Node (Express + Prisma + SQLite)
-- web/     # Front-end React (Vite + React Query)
+## Como rodar
 
+### Backend (API)
+```bash
+cd server
+npm install
+npx prisma migrate dev --name init
+npm run dev
+# API em http://localhost:3001
 
-## Estrutura
-- server/  # API Node (Express + Prisma + SQLite)
-- web/     # Front-end React (Vite + React Query)
+###Frontend (web)
+cd web
+npm install
+npm run dev
+# Web em http://localhost:5173
 
